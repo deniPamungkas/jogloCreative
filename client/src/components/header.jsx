@@ -16,8 +16,8 @@ const Header = () => {
           neque?
         </p>
         <div>
-          <div className="p-[3px] bg-gradient-to-br from-secondaryColor via-thirdColor to-primaryColor w-fit rounded-lg hover:text-white">
-            <Button className="text-start text-mask bg-white font-bold">
+          <div className="p-[3px] bg-gradient-to-br from-secondaryColor via-thirdColor to-primaryColor w-fit rounded-lg">
+            <Button className="text-start text-mask bg-white font-bold hover:text-white">
               Get In Touch
             </Button>
           </div>
