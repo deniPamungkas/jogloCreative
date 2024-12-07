@@ -15,7 +15,9 @@ const Navbar = () => {
             <Link to={"/"}>About Us</Link>
             <Link to={"/"}>Blog</Link>
           </div>
-          <Button className="bg-primaryColor">Contact</Button>
+          <Button className="bg-thirdColor text-black hover:bg-thirdColor">
+            Contact
+          </Button>
         </div>
       </div>
     </nav>

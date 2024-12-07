@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <section className="bg-white  h-[100vh] px-20 py-10">
+      <section className="bg-white min-h-fit px-20 py-10 mb-10">
         <div className="w-[400px] m-auto text-center flex flex-col gap-y-2 mb-14">
           <span className="text-thirdColor font-bold"> WE ARE BETTER</span>
           <h1 className="text-2xl font-bold">FOR YOUR BUSSINESS</h1>
@@ -72,7 +72,7 @@ const Home = () => {
             alt="bg-nego"
             className="object-cover -translate-y-[300px]"
           />
-          <div className="p-24 flex flex-col gap-y-6 bg-primaryColor bg-opacity-70 absolute top-0 left-0 right-0 bottom-0 z-20">
+          <div className="p-24 flex flex-col gap-y-6 bg-primaryColor bg-opacity-70 absolute top-0 left-0 right-0 bottom-0 z-10">
             <h1 className="text-3xl font-bold text-white">
               Free Consultation until reach agreement with Us
             </h1>
