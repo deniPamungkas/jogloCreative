@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="h-[100vh] top-0 flex px-20">
       <div className="flex flex-col gap-10 w-[50%] justify-center">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-4xl font-bold leading-10">
           <span className="text-gradient">Lorem ipsum dolor sit, </span>
           amet consectetur adipisicing elit. Omnis aut officia
         </h1>

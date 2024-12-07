@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <section className="bg-white  h-[100vh] px-20 py-10">
         <div className="w-[400px] m-auto text-center flex flex-col gap-y-2">
-          <span className="text-orange-600 font-bold"> WE ARE BETTER</span>
+          <span className="text-thirdColor font-bold"> WE ARE BETTER</span>
           <h1 className="text-2xl font-bold">FOR YOUR BUSSINESS</h1>
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
@@ -69,7 +69,7 @@ const Home = () => {
             alt="bg-nego"
             className="object-cover -translate-y-[300px]"
           />
-          <div className="p-24 flex flex-col gap-y-7 bg-primaryColor bg-opacity-70 absolute top-0 left-0 right-0 bottom-0 z-20">
+          <div className="p-24 flex flex-col gap-y-6 bg-primaryColor bg-opacity-70 absolute top-0 left-0 right-0 bottom-0 z-20">
             <h1 className="text-3xl font-bold text-white">
               Free Consultation until reach agreement with Us
             </h1>

@@ -22,7 +22,7 @@ const CardService = ({ title, description, img }) => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-colorGradient">Details</Button>
+        <Button className="w-full bg-colorGradient text-base">Details</Button>
       </CardFooter>
     </Card>
   );
