@@ -11,10 +11,10 @@ import PropTypes from "prop-types";
 
 const CardService = ({ title, description, img }) => {
   return (
-    <Card className="w-[350px] h-[400px] flex flex-col justify-center gap-y-8">
+    <Card className="w-[350px] min-h-[400px] flex flex-col justify-center gap-y-8">
       <CardHeader className="flex flex-col gap-3">
-        <CardTitle>{title}</CardTitle>
-        <CardDescription>{description}</CardDescription>
+        <CardTitle className="text-center">{title}</CardTitle>
+        <CardDescription className="text-center">{description}</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="w-[100px] h-[100px] m-auto">

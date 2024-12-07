@@ -1,3 +1,4 @@
+import { benefit } from "@/assets/constants";
 import Benefit from "@/components/card-benefit";
 import CardService from "@/components/card-service";
 import Footer from "@/components/footer";
@@ -9,7 +10,7 @@ const Home = () => {
     <>
       <Header />
       <section className="bg-white  h-[100vh] px-20 py-10">
-        <div className="w-[400px] m-auto text-center flex flex-col gap-y-2">
+        <div className="w-[400px] m-auto text-center flex flex-col gap-y-2 mb-14">
           <span className="text-thirdColor font-bold"> WE ARE BETTER</span>
           <h1 className="text-2xl font-bold">FOR YOUR BUSSINESS</h1>
           <p className="text-sm">
@@ -17,15 +18,17 @@ const Home = () => {
             necessitatibus alias ad fugit.
           </p>
         </div>
-        <br />
-        <br />
-        <div className="w-full grid grid-cols-3 gap-10">
-          <Benefit />
-          <Benefit />
-          <Benefit />
-          <Benefit />
-          <Benefit />
-          <Benefit />
+        <div className="w-full grid grid-cols-3 gap-8">
+          {benefit.map((item) => {
+            return (
+              <Benefit
+                key={item.label}
+                img={item.img}
+                label={item.label}
+                description={item.description}
+              />
+            );
+          })}
         </div>
       </section>
       <section className="w-full h-[100vh] bg-white px-20">
@@ -42,21 +45,21 @@ const Home = () => {
           <CardService
             title={"Landing Page"}
             description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animilaborum impedit"
+              "Drive more conversions with a professionally designed landing page tailored to grab attention and inspire action. Enhance your digital marketing efforts with a fast, modern, and responsive design."
             }
             img={"images/landing-page.png"}
           />
           <CardService
             title={"Company Profile"}
             description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animilaborum impedit"
+              "Make a lasting first impression with an elegant and informative company profile website. Highlight your business strengths with stunning visuals and easy navigation for an exceptional user experience."
             }
             img={"images/company-profile.png"}
           />
           <CardService
             title={"Custom Page"}
             description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animilaborum impedit"
+              "Get a custom-built website designed specifically for your business needs. We deliver personalized solutions with advanced features, API integrations, and unique functionalities to support your business growth."
             }
             img={"images/custom-page.png"}
           />
