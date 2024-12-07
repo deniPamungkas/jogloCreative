@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #04444e;
+  --secondary-color: #48cac0;
+  --third-color: #fed86b;
+  --fourth-color: #ffdbdd;
+}
+
+.text-gradient {
+  background: var(--primary-color);
+  background: linear-gradient(
+    to right,
+    var(--secondary-color) 0%,
+    var(--primary-color) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-mask {
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+}
