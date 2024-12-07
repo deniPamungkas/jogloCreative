@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
+import PropTypes from "prop-types";
 
 const CardService = ({ title, description, img }) => {
   return (
@@ -25,6 +26,12 @@ const CardService = ({ title, description, img }) => {
       </CardFooter>
     </Card>
   );
+};
+
+CardService.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  img: PropTypes.string,
 };
 
 export default CardService;

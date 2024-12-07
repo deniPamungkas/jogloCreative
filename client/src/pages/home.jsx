@@ -3,7 +3,6 @@ import CardService from "@/components/card-service";
 import Footer from "@/components/footer";
 import GradientBtn from "@/components/gradientBtn";
 import Header from "@/components/header";
-import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (

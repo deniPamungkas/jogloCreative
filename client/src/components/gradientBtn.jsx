@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import PropTypes from "prop-types";
 
 const GradientBtn = ({ children }) => {
   return (
@@ -8,6 +9,10 @@ const GradientBtn = ({ children }) => {
       </Button>
     </div>
   );
+};
+
+GradientBtn.propTypes = {
+  children: PropTypes.string,
 };
 
 export default GradientBtn;
