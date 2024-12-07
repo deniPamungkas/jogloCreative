@@ -1,6 +1,7 @@
 import Benefit from "@/components/card-benefit";
 import CardService from "@/components/card-service";
 import Footer from "@/components/footer";
+import GradientBtn from "@/components/gradientBtn";
 import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
 
@@ -69,11 +70,11 @@ const Home = () => {
             alt="bg-nego"
             className="object-cover -translate-y-[300px]"
           />
-          <div className="flex justify-between items-center p-16 bg-teal-600/70 absolute top-0 left-0 right-0 bottom-0 z-20">
+          <div className="p-24 flex flex-col gap-y-7 bg-primaryColor bg-opacity-70 absolute top-0 left-0 right-0 bottom-0 z-20">
             <h1 className="text-3xl font-bold text-white">
               Free Consultation until reach agreement with Us
             </h1>
-            <Button>Contact Us</Button>
+            <GradientBtn>Contact Us</GradientBtn>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "../App.css";
+import GradientBtn from "./gradientBtn";
 
 const Header = () => {
   return (
@@ -16,11 +17,7 @@ const Header = () => {
           neque?
         </p>
         <div>
-          <div className="p-[3px] bg-gradient-to-br from-secondaryColor via-thirdColor to-primaryColor w-fit rounded-lg">
-            <Button className="text-start text-mask bg-white font-bold hover:text-white">
-              Get In Touch
-            </Button>
-          </div>
+          <GradientBtn>Get In Touch</GradientBtn>
         </div>
       </div>
       <div className="w-[50%] overflow-hidden">

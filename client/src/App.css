@@ -20,3 +20,27 @@
   -webkit-mask-composite: destination-in;
   mask-composite: intersect;
 }
+
+.bg-colorGradient {
+  background: hsla(175, 55%, 54%, 1);
+
+  background: linear-gradient(
+    0deg,
+    hsla(175, 55%, 54%, 1) 0%,
+    hsla(188, 90%, 16%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(175, 55%, 54%, 1) 0%,
+    hsla(188, 90%, 16%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(175, 55%, 54%, 1) 0%,
+    hsla(188, 90%, 16%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#48CAC0", endColorstr="#04444E", GradientType=1 );
+}

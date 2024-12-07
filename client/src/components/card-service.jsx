@@ -21,9 +21,7 @@ const CardService = ({ title, description, img }) => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-gradient-to-r from-cyan-400 to-teal-700">
-          Details
-        </Button>
+        <Button className="w-full bg-colorGradient">Details</Button>
       </CardFooter>
     </Card>
   );
